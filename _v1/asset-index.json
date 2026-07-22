@@ -1,13 +1,21 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 179249,
+  "asset_size_bytes": 178688,
   "asset_count": 1,
   "file_count": 1,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
-      "hash": "SHA256:990df375ec12c9e8eb4b7c1dce1d49294c141b3c3673d58b44631920f1d351d5"
+      "hash": "SHA256:6e9863fa29879181dd2a20f9b22054f49505a81bec7fd64f8e2cf14c71d84e3a"
     }
   ],
-  "catalogs": []
+  "catalogs": [
+    {
+      "path": "Velnias75 Geometry Nodes",
+      "uuids": [
+        "0e5cb13d-493f-42ed-a673-9bf8fe4ef8e3"
+      ],
+      "simple_name": "Velnias75 Geometry Nodes"
+    }
+  ]
 }

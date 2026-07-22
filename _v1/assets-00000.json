@@ -16,7 +16,7 @@
         "hash": "SHA256:86e582c4014a66d9d7312bf7efa53280bebd7b44dd419f257b950d660749bc0f"
       },
       "meta": {
-        "catalog_id": "f608ae60-cdfa-4282-8ac3-cefe43dda858",
+        "catalog_id": "0e5cb13d-493f-42ed-a673-9bf8fe4ef8e3",
         "preferred_import_method": "LINK",
         "tags": [
           "geometry nodes",
@@ -47,8 +47,8 @@
   "files": [
     {
       "path": "geo-curve_hole-gen.blend",
-      "size_in_bytes": 179249,
-      "hash": "SHA256:b43535ee87816f5ebb320a23724960bfc171af0eb962bda7e165dcf6d6b64406",
+      "size_in_bytes": 178688,
+      "hash": "SHA256:2490ca649a17a342aab85fad780e8202cfd052bd00c54ad6e1504065492ebac6",
       "blender_version": "5.2.44"
     }
   ]
