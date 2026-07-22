@@ -1,0 +1,55 @@
+{
+  "asset_count": 1,
+  "file_count": 1,
+  "assets": [
+    {
+      "name": "Perforated Tube Generator",
+      "id_type": "NODETREE",
+      "files": [
+        "geo-curve_hole-gen.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "geo-curve_hole-gen_thumbnails/Nodetree/perforated-tube-generator.webp",
+        "hash": "SHA256:86e582c4014a66d9d7312bf7efa53280bebd7b44dd419f257b950d660749bc0f"
+      },
+      "meta": {
+        "catalog_id": "8537a479-d250-4e40-8d54-9c41a32a9ca9",
+        "preferred_import_method": "LINK",
+        "tags": [
+          "geometry nodes",
+          "tube",
+          "pipe",
+          "hose",
+          "perforated"
+        ],
+        "author": "Velnias75",
+        "description": "Generates a perforated tube along a B\u00e9zier curve.",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "geo-curve_hole-gen.blend",
+      "size_in_bytes": 179885,
+      "hash": "SHA256:6e221a329455715d0b5138a134b2fe5335087a99d4db4631f0523296da58b5e1",
+      "blender_version": "5.2.44"
+    }
+  ]
+}
