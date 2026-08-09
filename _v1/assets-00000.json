@@ -1,6 +1,6 @@
 {
-  "asset_count": 1,
-  "file_count": 1,
+  "asset_count": 2,
+  "file_count": 2,
   "assets": [
     {
       "name": "Perforated Tube Generator",
@@ -42,6 +42,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "Prickly pear cactus generator",
+      "id_type": "OBJECT",
+      "files": [
+        "geo-prickly pear cactus generator.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "geo-prickly%20pear%20cactus%20generator_thumbnails/Object/prickly-pear-cactus-generator.webp",
+        "hash": "SHA256:99bc53f6dd359050e7f502dd89f7ad42278262634dfacfb2e958e2ebda4366a1"
+      },
+      "meta": {
+        "catalog_id": "0e5cb13d-493f-42ed-a673-9bf8fe4ef8e3",
+        "tags": [
+          "cactus",
+          "geometry nodes",
+          "generator"
+        ],
+        "author": "Velnias75",
+        "description": "Procedural prickly pear cactus generator",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75"
+      }
     }
   ],
   "files": [
@@ -50,6 +76,13 @@
       "size_in_bytes": 178688,
       "hash": "SHA256:2490ca649a17a342aab85fad780e8202cfd052bd00c54ad6e1504065492ebac6",
       "blender_version": "5.2.44"
+    },
+    {
+      "path": "geo-prickly pear cactus generator.blend",
+      "size_in_bytes": 285644,
+      "hash": "SHA256:74f806312e0b313accdab3f47ee80827b50a5b1c462aaea403bf8b2e13ef044c",
+      "blender_version": "5.2.44",
+      "url": "geo-prickly%20pear%20cactus%20generator.blend"
     }
   ]
 }
