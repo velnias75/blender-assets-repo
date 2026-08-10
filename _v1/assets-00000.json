@@ -71,7 +71,7 @@
     },
     {
       "name": "Normbrunnenflasche",
-      "id_type": "OBJECT",
+      "id_type": "COLLECTION",
       "files": [
         "Normbrunnenflasche.blend"
       ],
@@ -79,40 +79,28 @@
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "Normbrunnenflasche_thumbnails/Object/normbrunnenflasche.webp",
-        "hash": "SHA256:7a06010afe001d004c11992ae7c8e9d230390b5b1e9a9cfbbb2a65fee012e7cf"
+        "url": "Normbrunnenflasche_thumbnails/Collection/normbrunnenflasche.webp",
+        "hash": "SHA256:cf3b20dc22b9d40ecbdd35c0ec39318d541b6be7dfa8743e9471ab1cc80cc32c"
       },
       "meta": {
         "catalog_id": "52226398-97e2-4afe-b764-c42fb4067869",
         "tags": [
+          "bottle",
           "flasche",
-          "perlenflasche",
-          "nottle"
+          "perlenflasche"
         ],
         "author": "Velnias75",
         "description": "Normbrunnenflasche",
         "license": "CC BY 4.0",
-        "copyright": "2026 Velnias75",
-        "properties": [
-          {
-            "name": "dimensions",
-            "type": "IDP_ARRAY",
-            "value": [
-              0.07893496006727219,
-              0.07893495261669159,
-              0.2944662868976593
-            ],
-            "itemtype": "IDP_FLOAT"
-          }
-        ]
+        "copyright": "2026 Velnias75"
       }
     }
   ],
   "files": [
     {
       "path": "Normbrunnenflasche.blend",
-      "size_in_bytes": 3026530,
-      "hash": "SHA256:2376159b7c4bf7ebfccb4a4681d575c6b696d4ba29624fc8cab5118717a55dc4",
+      "size_in_bytes": 3060658,
+      "hash": "SHA256:4dfd491e010756407212ff03501c9dfe268a176a078007c2cd2c89f25309b04f",
       "blender_version": "5.2.44"
     },
     {
