@@ -154,8 +154,8 @@
     },
     {
       "path": "geo_damage.blend",
-      "size_in_bytes": 158173,
-      "hash": "SHA256:260cb6d9a8393caf682711d047b6b8c208b95e34ee077d239b0aa6029ab86fb1",
+      "size_in_bytes": 157050,
+      "hash": "SHA256:49af59d6643b34bf19f3179a0b1ba47bc696dc9054e9b5c4f96af2f1a123135b",
       "blender_version": "5.2.44"
     }
   ]
