@@ -1,7 +1,45 @@
 {
-  "asset_count": 4,
-  "file_count": 4,
+  "asset_count": 5,
+  "file_count": 5,
   "assets": [
+    {
+      "name": "Aladdin Lamp",
+      "id_type": "OBJECT",
+      "files": [
+        "Aladdin Lamp.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Aladdin%20Lamp_thumbnails/Object/aladdin-lamp.webp",
+        "hash": "SHA256:9c85c432a7c67b2fc2a439193516bd1051ed213e9a8d9210c047e0ed908ce92d"
+      },
+      "meta": {
+        "catalog_id": "52226398-97e2-4afe-b764-c42fb4067869",
+        "tags": [
+          "lamp",
+          "oil lamp",
+          "aladdin"
+        ],
+        "author": "Velnias75",
+        "description": "Aladdin Lamp",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2800000011920929,
+              0.07794124633073807,
+              0.144865944981575
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
     {
       "name": "Perforated Tube Generator",
       "id_type": "NODETREE",
@@ -133,6 +171,13 @@
     }
   ],
   "files": [
+    {
+      "path": "Aladdin Lamp.blend",
+      "size_in_bytes": 345978,
+      "hash": "SHA256:748b45e73b3265d49b3f40f270f81c43b9e966eee72bb4ac4002182fd41a476a",
+      "blender_version": "5.2.44",
+      "url": "Aladdin%20Lamp.blend"
+    },
     {
       "path": "Normbrunnenflasche.blend",
       "size_in_bytes": 3060658,
