@@ -1,6 +1,6 @@
 {
-  "asset_count": 5,
-  "file_count": 5,
+  "asset_count": 6,
+  "file_count": 6,
   "assets": [
     {
       "name": "Aladdin Lamp",
@@ -108,6 +108,39 @@
       }
     },
     {
+      "name": "Surface Cobblerizer",
+      "id_type": "NODETREE",
+      "files": [
+        "geo-surface-cobblerizer.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "geo-surface-cobblerizer_thumbnails/Nodetree/surface-cobblerizer.webp",
+        "hash": "SHA256:dcc6daf86f0e73a7471246398c79f52e5f8dc688de765a202152453b469882b5"
+      },
+      "meta": {
+        "catalog_id": "0e5cb13d-493f-42ed-a673-9bf8fe4ef8e3",
+        "author": "Velnias75",
+        "description": "Turn mesh surfaces into cobbles",
+        "license": "CC BY 4.0",
+        "copyright": "2026 by Velnias75",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
       "name": "Damage",
       "id_type": "NODETREE",
       "files": [
@@ -196,6 +229,12 @@
       "hash": "SHA256:74f806312e0b313accdab3f47ee80827b50a5b1c462aaea403bf8b2e13ef044c",
       "blender_version": "5.2.44",
       "url": "geo-prickly%20pear%20cactus%20generator.blend"
+    },
+    {
+      "path": "geo-surface-cobblerizer.blend",
+      "size_in_bytes": 202515,
+      "hash": "SHA256:193bb8fee1d17d1d2d30fcebc7272895bfb14991fc9378292456bf7dc968b7e6",
+      "blender_version": "5.2.45"
     },
     {
       "path": "geo_damage.blend",
