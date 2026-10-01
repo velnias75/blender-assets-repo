@@ -1,6 +1,6 @@
 {
-  "asset_count": 6,
-  "file_count": 6,
+  "asset_count": 7,
+  "file_count": 7,
   "assets": [
     {
       "name": "Aladdin Lamp",
@@ -177,6 +177,30 @@
       }
     },
     {
+      "name": "Indra's Net of Jewels",
+      "id_type": "MATERIAL",
+      "files": [
+        "Indra's Net of Jewels Shader.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "Indra%27s%20Net%20of%20Jewels%20Shader_thumbnails/Material/indras-net-of-jewels.webp",
+        "hash": "SHA256:3cbcc82b3e956540528e8e0b870fe1657e4e62209e600ee7553a674dbda07c92"
+      },
+      "meta": {
+        "catalog_id": "586a5303-03c7-4c7b-924a-7d643f588312",
+        "tags": [
+          "fractal"
+        ],
+        "author": "Velnias75",
+        "description": "A fractal shader",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75"
+      }
+    },
+    {
       "name": "Normbrunnenflasche",
       "id_type": "COLLECTION",
       "files": [
@@ -210,6 +234,13 @@
       "hash": "SHA256:748b45e73b3265d49b3f40f270f81c43b9e966eee72bb4ac4002182fd41a476a",
       "blender_version": "5.2.44",
       "url": "Aladdin%20Lamp.blend"
+    },
+    {
+      "path": "Indra's Net of Jewels Shader.blend",
+      "size_in_bytes": 253022,
+      "hash": "SHA256:8b92af6cd654a60bb42094c20731220c20ebc29c1a03e0b28a204ec2354f2683",
+      "blender_version": "5.2.45",
+      "url": "Indra%27s%20Net%20of%20Jewels%20Shader.blend"
     },
     {
       "path": "Normbrunnenflasche.blend",
