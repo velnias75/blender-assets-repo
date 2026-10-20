@@ -1,6 +1,6 @@
 {
-  "asset_count": 7,
-  "file_count": 7,
+  "asset_count": 8,
+  "file_count": 8,
   "assets": [
     {
       "name": "Aladdin Lamp",
@@ -177,6 +177,43 @@
       }
     },
     {
+      "name": "Happy Pumpkin",
+      "id_type": "OBJECT",
+      "files": [
+        "happy-pumpkin.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "happy-pumpkin_thumbnails/Object/happy-pumpkin.webp",
+        "hash": "SHA256:680373123e41985ad44d6dbd84233f405cfef9d464278088966233c19a4fde00"
+      },
+      "meta": {
+        "catalog_id": "52226398-97e2-4afe-b764-c42fb4067869",
+        "tags": [
+          "pumpkin",
+          "halloween",
+          "low poly"
+        ],
+        "author": "Velnias75",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              2.0,
+              2.0,
+              1.899999976158142
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
       "name": "Indra's Net of Jewels",
       "id_type": "MATERIAL",
       "files": [
@@ -272,6 +309,12 @@
       "size_in_bytes": 157050,
       "hash": "SHA256:49af59d6643b34bf19f3179a0b1ba47bc696dc9054e9b5c4f96af2f1a123135b",
       "blender_version": "5.2.44"
+    },
+    {
+      "path": "happy-pumpkin.blend",
+      "size_in_bytes": 12512964,
+      "hash": "SHA256:faf6005613b69290670f2b92013364ddc9840a82bbf26e5b5d9a4e467499889a",
+      "blender_version": "5.2.45"
     }
   ]
 }
