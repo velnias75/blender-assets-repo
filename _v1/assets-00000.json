@@ -312,8 +312,8 @@
     },
     {
       "path": "happy-pumpkin.blend",
-      "size_in_bytes": 12512964,
-      "hash": "SHA256:faf6005613b69290670f2b92013364ddc9840a82bbf26e5b5d9a4e467499889a",
+      "size_in_bytes": 12510294,
+      "hash": "SHA256:7f7980c57ea2cc151412d2f917edfcbea5ef72b481a9277344e69ae8181e659f",
       "blender_version": "5.2.45"
     }
   ]
