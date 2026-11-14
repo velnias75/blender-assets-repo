@@ -1,6 +1,6 @@
 {
-  "asset_count": 8,
-  "file_count": 8,
+  "asset_count": 9,
+  "file_count": 9,
   "assets": [
     {
       "name": "Aladdin Lamp",
@@ -74,6 +74,401 @@
             "value": 3
           },
           {
+            "name": "properties",
+            "type": "IDP_GROUP",
+            "value": [
+              {
+                "name": "inputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_0",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Curves"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Input B\u00e9zier curve or multi-spline curve object."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_2",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Profile Resolution"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Resolution of the tube profile."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": 3
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 512
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 8
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_7",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Subdivisions"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Subdivision level of the generated mesh."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 2
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_3",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Tube Radius"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Radius of the tube."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.07999999821186066
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_4",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Hole Spacing"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Spacing of perforations along the curve."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.009999999776482582
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.10000000149011612
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_5",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Hole Radius"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Radius of the perforations."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.02500000037252903
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_10",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Hole Distribution"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Placement interval for perforations."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": 1
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 2147483647
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 2
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_9",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Solidify"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_6",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Thickness"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Thickness of the tube wall."
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.009999999776482582
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "panels",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "open_8",
+                    "type": "IDP_BOOL",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "name": "outputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Mesh",
+                    "type": "IDP_STRING",
+                    "value": "NodeSocketGeometry"
+                  }
+                ]
+              },
+              {
+                "name": "output_sockets",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_1",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Mesh"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Generated perforated tube mesh."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "geometry_node_asset_traits_flag",
             "type": "IDP_INT",
             "value": 64
@@ -133,6 +528,530 @@
             "value": 3
           },
           {
+            "name": "properties",
+            "type": "IDP_GROUP",
+            "value": [
+              {
+                "name": "inputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_0",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Geometry"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_4",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Cobble Size"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 15
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.8999999761581421
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_19",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Cobble Height"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.10000000149011612
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_3",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Subdivision Level"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 3
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_9",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Randomness"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 15
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.6000000238418579
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_2",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Seed"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 6
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_INT",
+                        "value": -2147483648
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_INT",
+                        "value": 2147483647
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_INT",
+                        "value": 0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_18",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Bottom"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": false
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_10",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Shade Smooth"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": true
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_11",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Material"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 13
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_12",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Noise Intensity"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.12999999523162842
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_6",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Noise Scale"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Scale of the base noise octave"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -1000.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1000.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 5.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_7",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Noise Detail"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "The number of noise octaves. Higher values give more detailed noise but increase render time"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 15.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 4.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_8",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Noise Roughness"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Blend factor between an octave and its previous one. A value of zero corresponds to zero detail"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 15
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.6000000238418579
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "panels",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "open_5",
+                    "type": "IDP_BOOL",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "name": "outputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Geometry",
+                    "type": "IDP_STRING",
+                    "value": "NodeSocketGeometry"
+                  }
+                ]
+              },
+              {
+                "name": "output_sockets",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_1",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Geometry"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "name": "geometry_node_asset_traits_flag",
             "type": "IDP_INT",
             "value": 64
@@ -167,6 +1086,339 @@
             "name": "type",
             "type": "IDP_INT",
             "value": 3
+          },
+          {
+            "name": "properties",
+            "type": "IDP_GROUP",
+            "value": [
+              {
+                "name": "inputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_0",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Mesh"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_3",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Pattern"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -1000.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1000.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_6",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Density"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 65554
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": 0.009999999776482582
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 3.4028234663852886e+38
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.30000001192092896
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_4",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Scale"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": "Scale of the base noise octave"
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -1000.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 1000.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 3.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_2",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Sharpness"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -10000.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 10000.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_5",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Sharpness Offset"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "subtype",
+                        "type": "IDP_INT",
+                        "value": 0
+                      },
+                      {
+                        "name": "min",
+                        "type": "IDP_FLOAT",
+                        "value": -10000.0
+                      },
+                      {
+                        "name": "max",
+                        "type": "IDP_FLOAT",
+                        "value": 10000.0
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_FLOAT",
+                        "value": 1.0
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_7",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Manifold"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": true
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Socket_8",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Shade Smooth"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 4
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      },
+                      {
+                        "name": "default_value",
+                        "type": "IDP_BOOL",
+                        "value": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "panels",
+                "type": "IDP_GROUP",
+                "value": []
+              },
+              {
+                "name": "outputs",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Mesh",
+                    "type": "IDP_STRING",
+                    "value": "NodeSocketGeometry"
+                  }
+                ]
+              },
+              {
+                "name": "output_sockets",
+                "type": "IDP_GROUP",
+                "value": [
+                  {
+                    "name": "Socket_1",
+                    "type": "IDP_GROUP",
+                    "value": [
+                      {
+                        "name": "name",
+                        "type": "IDP_STRING",
+                        "value": "Mesh"
+                      },
+                      {
+                        "name": "type",
+                        "type": "IDP_INT",
+                        "value": 10
+                      },
+                      {
+                        "name": "description",
+                        "type": "IDP_STRING",
+                        "value": ""
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "geometry_node_asset_traits_flag",
@@ -262,6 +1514,43 @@
         "license": "CC BY 4.0",
         "copyright": "2026 Velnias75"
       }
+    },
+    {
+      "name": "Plastic Crate",
+      "id_type": "OBJECT",
+      "files": [
+        "plastic crate.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "plastic%20crate_thumbnails/Object/plastic-crate.webp",
+        "hash": "SHA256:0ffa094fd72aadf033a09c96c6f1304ae310974545d2a8b946fbc2115af564df"
+      },
+      "meta": {
+        "catalog_id": "52226398-97e2-4afe-b764-c42fb4067869",
+        "tags": [
+          "crate",
+          "plastic"
+        ],
+        "author": "Velnias75",
+        "description": "A plasic crate",
+        "license": "CC BY 4.0",
+        "copyright": "2026 Velnias75",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              3.240000009536743,
+              2.240000009536743,
+              1.25
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
     }
   ],
   "files": [
@@ -315,6 +1604,13 @@
       "size_in_bytes": 12510294,
       "hash": "SHA256:7f7980c57ea2cc151412d2f917edfcbea5ef72b481a9277344e69ae8181e659f",
       "blender_version": "5.2.45"
+    },
+    {
+      "path": "plastic crate.blend",
+      "size_in_bytes": 187221,
+      "hash": "SHA256:0e763f53b91ba875c7160b4611bba056474ee49b3d6c71ba8963b994fffeac14",
+      "blender_version": "5.3.31",
+      "url": "plastic%20crate.blend"
     }
   ]
 }
